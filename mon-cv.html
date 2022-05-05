@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marandel Alexis - Portfolio</title>
+
+        <!--
+    - favicon
+  -->
+        <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+        <!--
+    - custom css link
+  -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!--
+    - google font link
+  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!--
+    - #MAIN
+  -->
+
+        <main>
+            <!--
+      - #SIDEBAR
+    -->
+
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img src="./assets/images/pp.png" alt="Marandel Alexis" width="80" />
+                    </figure>
+
+                    <div class="info-content">
+                        <h1 class="name" title="Marandel Alexis">Marandel Alexis</h1>
+
+                        <p class="title">Apprentis, BTS SIO du CFAI de Maxéville</p>
+                    </div>
+
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>afficher les contacts</span>
+
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="sidebar-info_more">
+                    <div class="separator"></div>
+
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+
+                                <a href="mailto:contact@a-marandel.fr" class="contact-link">contact@a-marandel.fr</a>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Anniversaire</p>
+
+                                <time datetime="1982-06-23">17 Juin, 2002</time>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Localisation</p>
+
+                                <address>Maxéville, Grand-Est, France</address>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="separator"></div>
+
+                    <ul class="social-list">
+
+                        <li class="social-item">
+                            <a href="https://twitter.com/Alks667" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a href="https://www.instagram.com/alexmrdl/" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!--
+      - #main-content
+    -->
+
+            <div class="main-content">
+                <!--
+        - #NAVBAR
+      -->
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <form action="index.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>a propos</button>
+                            </li>
+                        </form>
+                        <form action="mon-cv.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link active" data-nav-link>mon cv</button>
+                            </li>
+                        </form>
+                        <form action="bts-sio.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>bts sio</button>
+                            </li>
+                        </form>
+                        <form action="projets.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>projets</button>
+                            </li>
+                        </form>
+                        <form action="contact.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>contact</button>
+                            </li>
+                        </form>
+                    </ul>
+                </nav>
+
+
+
+                <!--
+        - #RESUME
+      -->
+
+                <article class="resume active" data-page="mon cv">
+                    <header>
+                        <h2 class="h2 article-title">mon cv</h2>
+                    </header>
+
+                    <section class="timeline">
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+
+                            <h3 class="h3">Mes études</h3>
+                        </div>
+
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    BTS Service Informatique aux Organisations<br />
+                                    Option SISR, Maxéville (54320)
+                                </h4>
+
+                                <span>2021 - ...</span>
+
+                                <p class="timeline-text">
+                                    Formation en alternance qui ce passe, pour la partie école au Pôle formation UIMM de Maxéville et pour la partie entreprise, elle ce passe à l'Entreprise Livio.
+                                </p>
+                            </li>
+
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    BAC Sciences et Technoligies du Management et de la Gestion<br />
+                                    Option Mercatique, Remiremont (88200)
+                                </h4>
+
+                                <span>2017 - 2020</span>
+
+                                <p class="timeline-text">
+                                    Bac technologique qui ce passait au Lycée André Malraux à Remiremont.
+                                </p>
+                            </li>
+
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    Brevet des collèges<br />
+                                    Plombières-Les-Bains (88370)
+                                </h4>
+
+                                <span>2013 - 2017</span>
+
+                                <p class="timeline-text">
+                                    Brevet qui ce passait au collège Montainge à Plombières-Les-Bains.
+                                </p>
+                            </li>
+                        </ol>
+                    </section>
+
+                    <section class="timeline">
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+
+                            <h3 class="h3">Experience professionnelle</h3>
+                        </div>
+
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    Apprentissage<br />
+                                    Fresse-sur-Moselle (88160)
+                                </h4>
+
+                                <span>2021 — ...</span>
+
+                                <p class="timeline-text">
+                                    Je fais mon apprentissage dans l'entreprise Livio.
+                                </p>
+                            </li>
+
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    Stage d'observation<br />
+                                    Plombières-Les-Bains (88370)
+                                </h4>
+
+                                <span>Février 2017</span>
+
+                                <p class="timeline-text">
+                                    Le stage d'observation de 3ème, fait à l'entreprise Chez Malo à Plombières-Les-Bains.
+                                </p>
+                            </li>
+                        </ol>
+                    </section>
+
+                    <section class="skill">
+                        <h3 class="h3 skills-title">Mes compétences</h3>
+
+                        <ul class="skills-list content-card">
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Windows / Windows Server</h5>
+                                    <data value="90">90%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                                </div>
+                            </li>
+
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Linux</h5>
+                                    <data value="60">60%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                                </div>
+                            </li>
+
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Pack Office</h5>
+                                    <data value="80">80%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                                </div>
+                            </li>
+
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Python</h5>
+                                    <data value="50">50%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 50%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+
+
+            </div>
+        </main>
+
+        <!--
+    - custom js link
+  -->
+        <script src="./assets/js/script.js"></script>
+
+        <!--
+    - ionicon link
+  -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

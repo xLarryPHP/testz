@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marandel Alexis - Portfolio</title>
+
+        <!--
+    - favicon
+  -->
+        <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+        <!--
+    - custom css link
+  -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!--
+    - google font link
+  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!--
+    - #MAIN
+  -->
+
+        <main>
+            <!--
+      - #SIDEBAR
+    -->
+
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img src="./assets/images/pp.png" alt="Marandel Alexis" width="80" />
+                    </figure>
+
+                    <div class="info-content">
+                        <h1 class="name" title="Marandel Alexis">Marandel Alexis</h1>
+
+                        <p class="title">Apprentis, BTS SIO du CFAI de Maxéville</p>
+                    </div>
+
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>afficher les contacts</span>
+
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="sidebar-info_more">
+                    <div class="separator"></div>
+
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+
+                                <a href="mailto:contact@a-marandel.fr" class="contact-link">contact@a-marandel.fr</a>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Anniversaire</p>
+
+                                <time datetime="1982-06-23">17 Juin, 2002</time>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Localisation</p>
+
+                                <address>Maxéville, Grand-Est, France</address>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="separator"></div>
+
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a href="https://twitter.com/Alks667" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a href="https://www.instagram.com/alexmrdl/" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!--
+      - #main-content
+    -->
+
+            <div class="main-content">
+                <!--
+        - #NAVBAR
+      -->
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <form action="#">
+                            <li class="navbar-item">
+                                <button class="navbar-link active" data-nav-link>a propos</button>
+                            </li>
+                        </form>
+                        <form action="mon-cv.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>mon cv</button>
+                            </li>
+                        </form>
+                        <form action="bts-sio.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>bts sio</button>
+                            </li>
+                        </form>
+                        <form action="projets.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>projets</button>
+                            </li>
+                        </form>
+                        <form action="contact.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>contact</button>
+                            </li>
+                        </form>
+                    </ul>
+                </nav>
+
+                <!--
+        - #ABOUT
+      -->
+
+                <article class="about active" data-page="a propos">
+                    <header>
+                        <h2 class="h2 article-title">a propos</h2>
+                    </header>
+
+                    <section class="about-text">
+                        <p>Je m'appelle <b>Alexis</b>, j'ai actuellement 19 ans.</p>
+                        <p>Je suis actuellement en <b>première année</b> de BTS SIO OPTION SISR en alternance au <b>Pole Formation Uimm Lorraine Site De Nancy Maxéville</b>.</p>
+                        <p>Mon entreprise avec laquelle je fais mon alternance est Livio.</p>
+                        <p>
+                            Ce portfolio a pour but de vous présenter mes travaux et mon parcours dans le numérique.
+                        </p>
+                    </section>
+
+
+                    <section class="clients">
+                        <h3 class="h3 clients-title">Ecole / Entreprise</h3>
+
+                        <ul class="clients-list has-scrollbar">
+                            <li class="clients-item">
+                                <a href="https://www.formation-industries-lorraine.com/fr/">
+                                    <img src="./assets/images/uimm.png" height="150" width="150" alt="UIMM Maxéville" />
+                                </a>
+                            </li>
+
+                            <li class="clients-item">
+                                <a href="https://www.groupe-livio.fr/">
+                                    <img src="./assets/images/livio.png" height="150" width="150" alt="Groupe Livio" />
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+        </main>
+
+        <!--
+    - custom js link
+  -->
+        <script src="./assets/js/script.js"></script>
+
+        <!--
+    - ionicon link
+  -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

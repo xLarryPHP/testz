@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marandel Alexis - Portfolio</title>
+
+        <!--
+    - favicon
+  -->
+        <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+        <!--
+    - custom css link
+  -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!--
+    - google font link
+  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!--
+    - #MAIN
+  -->
+
+        <main>
+            <!--
+      - #SIDEBAR
+    -->
+
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img src="./assets/images/pp.png" alt="Marandel Alexis" width="80" />
+                    </figure>
+
+                    <div class="info-content">
+                        <h1 class="name" title="Marandel Alexis">Marandel Alexis</h1>
+
+                        <p class="title">Apprentis, BTS SIO du CFAI de Maxéville</p>
+                    </div>
+
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>afficher les contacts</span>
+
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="sidebar-info_more">
+                    <div class="separator"></div>
+
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+
+                                <a href="mailto:contact@a-marandel.fr" class="contact-link">contact@a-marandel.fr</a>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Anniversaire</p>
+
+                                <time datetime="1982-06-23">17 Juin, 2002</time>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Localisation</p>
+
+                                <address>Maxéville, Grand-Est, France</address>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="separator"></div>
+
+                    <ul class="social-list">
+     
+                        <li class="social-item">
+                            <a href="https://twitter.com/Alks667" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a href="https://www.instagram.com/alexmrdl/" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!--
+      - #main-content
+    -->
+
+            <div class="main-content">
+                <!--
+        - #NAVBAR
+      -->
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <form action="index.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>a propos</button>
+                            </li>
+                        </form>
+                        <form action="mon-cv.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>mon cv</button>
+                            </li>
+                        </form>
+                        <form action="bts-sio.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link active" data-nav-link>bts sio</button>
+                            </li>
+                        </form>
+                        <form action="projets.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>projets</button>
+                            </li>
+                        </form>
+                        <form action="contact.html">
+                            <li class="navbar-item">
+                                <button class="navbar-link" data-nav-link>contact</button>
+                            </li>
+                        </form>
+                    </ul>
+                </nav>
+
+                <!--
+        - #ABOUT
+      -->
+
+                <article class="about active" data-page="bts sio">
+                    <header>
+                        <h2 class="h2 article-title">BTS SIO</h2>
+                    </header>
+
+                    <section class="about-text">
+                        <p>
+                            Le BTS SIO (Service Informatique aux Organisations) est un programme de niveau Bac+2, qui forme des informaticiens aussi bien doués pour le développement que pour l’administration et la maintenance d’un réseau informatique.                        </p>
+                        <p>Il est possible de faire le BTS en alternance.</p>
+                    </section>
+
+
+                    <section class="testimonials">
+                        <h3 class="h3 testimonials-title">Les options du BTS</h3>
+
+                        <ul class="testimonials-list has-scrollbar">
+                            <li class="testimonials-item">
+                                <div class="content-card" data-testimonials-item>
+                                    <figure class="testimonials-avatar-box">
+                                        <img src="./assets/images/sisr.png" alt="BTS SIO, option SISR" width="60" data-testimonials-avatar />
+                                    </figure>
+
+                                    <h4 class="h4 testimonials-item-title" data-testimonials-title>BTS SIO, option SISR</h4>
+
+                                    <div class="testimonials-text" data-testimonials-text>
+                                        <p>
+                                            Le BTS SIO SISR (Solution d’Infrastructure Système et Réseau), est une option du BTS SIO qui a pour but de former des techniciens réseau polyvalents. Les lauréats de ce programme ont toutes les compétences nécessaires pour la gestion et la maintenance du réseau d’une entreprise.
+                                        </p>
+                                        <br><br><br>
+                                        <p>                       
+                                            <section class="timeline">
+                                                <div class="title-wrapper">
+                                                    <div class="icon-box">
+                                                        <ion-icon name="book-outline"></ion-icon>
+                                                    </div>
+                        
+                                                    <h3 class="h3">Les débouchés</h3>
+                                                </div>
+                        
+                                                <ol class="timeline-list">
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Technicien de production
+                                                    </li>
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Administrateur systèmes et réseaux
+                                                    </li> 
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Technicien d'infrastructure
+                                                    </li>
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Support système et réseaux
+                                                    </li>
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Développeur web
+                                                    </li>
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Etc...
+                                                    </li>               
+
+                                                </ol>
+                                            </section></p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="testimonials-item">
+                                <div class="content-card" data-testimonials-item>
+                                    <figure class="testimonials-avatar-box">
+                                        <img src="./assets/images/slam.jpg" alt="BTS SIO, option SLAM" width="60" data-testimonials-avatar />
+                                    </figure>
+
+                                    <h4 class="h4 testimonials-item-title" data-testimonials-title>BTS SIO, option SLAM</h4>
+
+                                    <div class="testimonials-text" data-testimonials-text>
+                                        <p>
+                                            Le BTS SIO SLAM (Solutions Logicielles et Application Métiers), est un parcours dédiés aux passionnés du développement logiciel. Durant leurs deux années d’études, les étudiants apprennent à rédiger un cahier des charges, développer des applications et assurer leur intégration dans les systèmes informatisés de la société.
+                                        </p>
+                                        <br><br><br>
+                                        <p>                       
+                                            <section class="timeline">
+                                                <div class="title-wrapper">
+                                                    <div class="icon-box">
+                                                        <ion-icon name="book-outline"></ion-icon>
+                                                    </div>
+                        
+                                                    <h3 class="h3">Les débouchés</h3>
+                                                </div>
+                        
+                                                <ol class="timeline-list">
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Développeur d'applications informatiques
+                                                    </li>
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Chargé d'études informatiques
+                                                    </li> 
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Programmeur analyste
+                                                    </li>
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Programmeur d'applications
+                                                    </li>
+                                                    <li class="timeline-item">
+                                                        <h4 class="h4 timeline-item-title">
+                                                            Etc...
+                                                    </li>               
+
+                                                </ol>
+                                            </section></p>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                    <!--
+          - testimonials modal
+        -->
+
+                    <div class="modal-container" data-modal-container>
+                        <div class="overlay" data-overlay></div>
+
+                        <section class="testimonials-modal">
+                            <button class="modal-close-btn" data-modal-close-btn>
+                                <ion-icon name="close-outline"></ion-icon>
+                            </button>
+
+                            <div class="modal-img-wrapper">
+                                <figure class="modal-avatar-box">
+                                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+                                </figure>
+
+                                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+                            </div>
+
+                            <div class="modal-content">
+                                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                                <time datetime="2022-06-17">06 Mai, 2022</time>
+
+                                <div data-modal-text>
+                                    <p>
+                                        Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+                                        ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!--
+          - clients
+        -->
+
+                    <section class="clients">
+                        <h3 class="h3 clients-title">Ecole / Entreprise</h3>
+
+                        <ul class="clients-list has-scrollbar">
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img src="./assets/images/uimm.png" height="150" width="150" alt="client logo" />
+                                </a>
+                            </li>
+
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img src="./assets/images/livio.png" height="150" width="150" alt="client logo" />
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+
+           
+            </div>
+        </main>
+
+        <!--
+    - custom js link
+  -->
+        <script src="./assets/js/script.js"></script>
+
+        <!--
+    - ionicon link
+  -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
